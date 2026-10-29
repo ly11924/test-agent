@@ -43,3 +43,7 @@ robot_execute (action, params)：Mock 机器人底层执行接口（移液、加
 docker build -t test-agent:demo .
 docker run -d -p 8000:8000 test-agent:demo
 curl.exe -s -X POST http://127.0.0.1:8000/api/experiments -H "Content-Type: application/json" --data-binary @examples/requests/success.json
+
+git add .
+git commit -m "feat: init project"
+git push
